@@ -32,8 +32,6 @@ a {
 header {
   background:#191970;
   color: #fff;
-  /* padding: 5px;
-  margin-bottom: 40px; */
 
 }
 
@@ -60,17 +58,6 @@ header::after {
   overflow: auto;
   padding: 20px 20px;
 }
-
-/* .container-nav {
-  max-width: auto;
-  display: inline-flex; 
-  flex-direction: row;
-  flex-wrap: wrap; 
-  justify-content: center;
-  gap: 40px; 
-  display: grid; 
-  border: 1px solid white 
-} */
 
 nav {
   float: left;

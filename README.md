@@ -2,7 +2,7 @@ This project is a [Next.js](https://nextjs.org/) bootstrapped with [`create-next
 
 ## Let's get started
 
-Run npm install to download package and its dependencies
+Run npm install to download package and its dependencies.
 
 ```shell
 npm install
