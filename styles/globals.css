@@ -152,14 +152,14 @@ ol {
 }
 
 .post-body pre {
-  background: #f4f4f4;
+  background: #D3D3D3;
   padding: 20px;
   margin: 20px 0;
   line-height: 2.3;
 }
 
 .btn-back {
-  background: black;
+  background: #191970;
   color: white;
   margin-bottom: 20px;
   display: flex;
