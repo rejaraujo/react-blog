@@ -1,0 +1,173 @@
+/* Rejaine */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('/images/background.jpg');
+    background-color: #F0FFFF;
+    /* code taken from https://teamtreehouse.com/community/is-adding-a-background-image-via-css-classed-as-bad-practice */
+ -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+} 
+
+p {
+  margin: 15px 0;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+header {
+  background:#191970;
+  color: #fff;
+  /* padding: 5px;
+  margin-bottom: 40px; */
+
+}
+
+header a {
+  color: #f4f4f4;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+header a:hover {
+  color: gray;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear:both;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  overflow: auto;
+  padding: 20px 20px;
+}
+
+/* .container-nav {
+  max-width: auto;
+  display: inline-flex; 
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 40px; 
+  display: grid; 
+  border: 1px solid white 
+} */
+
+nav {
+  float: left;
+}
+
+.item {
+  display: inline-block;
+  margin-left: 70px;
+  padding: 20px;
+}
+
+
+.card {
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Cards and everything it has in it*/
+.card-page {
+padding: 15px 30px;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.post {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.post-date {
+  background: #f4f4f4;
+  margin-bottom: 20px;
+  padding: 3px 10px;
+}
+
+    /* Read More */
+.btn {
+  display:block;
+  background: steelblue;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
+
+/* Article dynamic page itself */
+.post-title {
+  margin: 10px 0;
+}
+
+.post-body ul,
+ol {
+  font-size: 110%;
+  line-height: 2.3;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.post-body pre {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 20px 0;
+  line-height: 2.3;
+}
+
+.btn-back {
+  background: black;
+  color: white;
+  margin-bottom: 20px;
+  display: flex;
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
+  .post {
+    grid-template-columns: 1fr;
+  }
+}
