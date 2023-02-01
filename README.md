@@ -1,15 +1,19 @@
-
 This project is a [Next.js](https://nextjs.org/) bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Let's get started
 
 First, run the development server:
+
+```shell
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
+
+or using `yarn`
+
+```shell
+yarn dev
+```
+
 Then, open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
